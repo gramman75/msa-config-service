@@ -1,6 +1,6 @@
 encrypt:
 #  key: abcdefghijklmn1234567890
   key-store:
-    location: file:///D:\git\msa\ecommerce\apiEncryptionKey.jks
+    location: file:///D:\git\msa\ecommerce\config-file\apiEncryptionKey.jks
     password: 1q2w3e4r
     alias: apiEncryptionKey

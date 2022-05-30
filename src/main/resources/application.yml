@@ -13,6 +13,7 @@ spring:
     config:
       server:
         git:
+          default-label: master
           uri: file://d:\git\msa\ecommerce\config-file
 
 management:
