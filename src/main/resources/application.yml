@@ -9,12 +9,17 @@ spring:
     port: 5672
     username: guest
     password: guest
+  profiles:
+    active: native
+
   cloud:
     config:
       server:
-        git:
-          default-label: master
-          uri: file://d:\git\msa\ecommerce\config-file
+        native:
+          search-locations: classpath:native-config
+#        git:
+#          default-label: master
+#          uri: file://d:\git\msa\msa-config-file
 
 management:
   endpoints:
