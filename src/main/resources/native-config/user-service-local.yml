@@ -1,5 +1,6 @@
 spring:
   datasource:
-    url: jdbc:h2:tcp://localhost/C:\data\user-service # jdbc:h2:file:C:\data\test
+#    url: jdbc:h2:tcp://localhost/C:\data\user-service # jdbc:h2:file:C:\data\test
+    url: jdbc:h2:mem:userdb
     username: '{cipher}AQAZPFNqjDnUsWlknb5z5vTpAdN5GofMHhHJl5dxWmmehyZ0I/bkL9hiPoicoAQXzgA6ounbSfl2eEJu0RM+EuDW+3Hmvvp0++YHLn6KKgvbYLGaCOQ+1/K+g1p9gCFQanyxIA98UxeN6oFds32GOiGU+tjoVkDRO5jb7tVe5yaKPl50wB6Mpi1E8Gj5+y4BjLvgd4nTK4UhjnRud7mMRuytASMZXaxEbPtNHyY/uyIwclUCa9Rb/eW/gF0vpuB0yVtGb8bUVsc3BkU8hARG2BBbJ4pTeDtB9erROcxR5cWvcwM3hAlNPi/7VhoIvf9UcheA4ynEaPcd3k9zZ07VEZ3k/4hMaD0xAEReHHF41xPyQnBj5NK2p8xSdgvQI1eYrCA='
     password:
