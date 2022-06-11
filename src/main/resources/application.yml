@@ -16,11 +16,11 @@ spring:
     config:
       server:
         native:
-          search-locations: classpath:native-config
-#        git:
-#          default-label: master
+#          search-locations: classpath:native-config
+        git:
+          default-label: master
 #          uri: file://d:\git\msa\msa-config-file
-
+          uri: https://github.com/gramman75/msa-config-file.git
 management:
   endpoints:
     web:
