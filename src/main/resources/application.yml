@@ -9,13 +9,13 @@ spring:
     port: 5672
     username: guest
     password: guest
-  profiles:
-    active: native
+  # profiles:
+  #   active: native
 
   cloud:
     config:
       server:
-        native:
+        # native:
 #          search-locations: classpath:native-config
         git:
           default-label: master
